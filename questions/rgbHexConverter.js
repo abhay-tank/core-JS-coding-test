@@ -1,8 +1,3 @@
-/**
- * The function takes three arguments corresponding to R,G and B values.
- * The function converts these values to corresponding HEX color code
- */
-
 const validateRGB = (rgbValues) => {
   return rgbValues.every((color) => color <= 255 && color >= 0 && typeof color == "number") && rgbValues.length == 3;
 }

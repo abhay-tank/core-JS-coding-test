@@ -1,4 +1,3 @@
-
 const validateString = (str) => {
   return ((typeof str == "string" || typeof str == "String") && str.length) ? true : false
 }
